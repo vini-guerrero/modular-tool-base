@@ -1,0 +1,67 @@
+# --------------------------------------
+# Visual Studio / VSCode
+# --------------------------------------
+.vs/                        # Visual Studio user-specific files
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.usertasks
+*.vsconfig
+*.code-workspace
+
+# --------------------------------------
+# Build / Binary Files
+# --------------------------------------
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.opensdf
+*.sdf
+
+# Include whitelisted Build files (like PakBlacklist)
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# --------------------------------------
+# Compiled / Object Files
+# --------------------------------------
+*.obj
+*.o
+*.slo
+*.lo
+*.lib
+*.a
+*.lai
+*.dll
+*.so
+*.dylib
+*.exe
+*.app
+*.out
+*.ipa
+*.gch
+*.pch
+*.mod
+
+# --------------------------------------
+# Unreal Specific
+# --------------------------------------
+Plugins/**/Binaries/*
+Plugins/**/Intermediate/*
+SourceArt/**/*.png
+SourceArt/**/*.tga
+*_BuiltData.uasset
+
+# --------------------------------------
+# Optional / IDE Cache
+# --------------------------------------
+.vscode/
